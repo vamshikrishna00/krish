@@ -1,5 +1,6 @@
-x=int(input())
-y=int(input())
+x,y=input().split()
+x=int(x)
+y=int(y)
 def lcm(x,y):
     if x > y:
        greater = x
