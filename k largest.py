@@ -8,4 +8,4 @@ for i in range(l):
     d.append(c[i])
 d.sort()
 d=d[::-1]
-print(d[b-1])
+print(d[b])
