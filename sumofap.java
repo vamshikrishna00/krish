@@ -10,7 +10,7 @@ class A{
         float sum;
         sum = (n / 2) * (2 * a + (n - 1) * d);
         int s=(int)sum;
-        System.out.println(" "+s);
+        System.out.print(+s);
         return sum;
     } 
     
