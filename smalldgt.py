@@ -1,5 +1,5 @@
-n=input()
-k=int(input())
+n,k=input().split()
+k=int(k)
 l=[]
 for i in n:
 	l.append(i)
