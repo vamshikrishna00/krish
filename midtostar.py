@@ -10,7 +10,7 @@ if b%2!=0:
 else:
     for i in range((b//2)-1):
         s=s+l[i]
-    s+='*'
+    s+='**'
     j=(b//2)+1
 for i in range(j,b):
     s+=l[i]
