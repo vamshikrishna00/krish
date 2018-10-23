@@ -3,6 +3,7 @@ b=input().split()
 l=[]
 for i in range(a):
     l.append(int(b[i]))
+#s=len(l)
 s1=a//2
 k=0
 for i in range(s1):
