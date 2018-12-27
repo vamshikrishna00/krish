@@ -1,9 +1,9 @@
-x=str(input())
-y='dhoni'
-c=sorted(x)
-d=sorted(y)
+a=str(input())
+b='dhoni'
+y=sorted(a)
+z=sorted(b)
 
-if c==d:
+if y==z:
   print('yes')
 else:
   print('no')
