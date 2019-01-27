@@ -1,21 +1,21 @@
-a,b=input().split()
-a=int(a)
-b=int(b)
+c,d=input().split()
+c=int(c)
+d=int(d)
 q=[]
 w=[]
-for i in range(a):
+for i in range(c):
     x=input().split()
     break
-for j in range(0,b):
+for j in range(0,d):
     u,v=input().split()
     u=int(u)
     v=int(v)
     q.append(u)
     w.append(v)
-for k in range(0,b):
+for k in range(0,d):
     t=q[k]
     g=w[k]
-    f=0
+    z=0
     for l in range(t,g+1):
-        f=f^int(x[l-1])
-    print(f)
+        z=z^int(x[l-1])
+    print(z)
